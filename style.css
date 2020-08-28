@@ -1,0 +1,365 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #263238;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+.btn{
+  color: #FFF!important;
+  background-color: #21B573;
+}
+
+.btn:hover {
+  color: #21b573!important;;
+  background-color: #f0fff0;
+  border: 1px solid #21b573;
+}
+
+.header, .info {
+  background: #f0fff0;
+}
+
+.color-bar {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 7px;
+  border-radius: 5px;
+  background-color: #21B573;
+}
+
+/* NAVBAR */
+.navbar {
+  text-transform: uppercase;
+  background: #f0fff0;
+}
+
+
+
+.navbar .brand-name {
+  color: #21B573;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.navbar .brand-title {
+  background: #21B573;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 3px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.navbar .nav-item{
+  color: #21B573!important;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+}
+
+.navbar .nav-link {
+  margin: 0 10px;
+}
+
+
+/* HERO */
+.question {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fd511a;
+}
+
+.hero span {
+  color: #21B573;
+}
+
+.hero h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+/* INFO */
+.info .single-info {
+  background-color: #21B573;
+  color: rgb(#FFF);
+  padding: 10px;
+}
+
+.info .info-icon .fas{
+  padding: 0px 10px;
+  font-size: 50px;
+}
+
+.info .info-title {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.info h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+.info .address {
+  margin: 0 6px;
+}
+
+/* SERVICE */
+.service {
+  background-image:linear-gradient(to right, rgba(38, 50, 56, 0.9),rgba(38, 50, 56, 0.9)), url("images/microscope.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #FFF;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+.service .fas {
+  background-color: #21B573;
+  color: #FFF;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* KNOW MORE */
+.know-more {
+  background-color: #21B573;
+  color: #FFF;
+}
+.know-more .know-more-info{
+  max-width: 900px;
+  margin: auto;
+}
+
+.know-more .btn {
+  border: 2px solid #FFF;
+}
+
+/* DOCTORS */
+.doctors {
+  background-color: #f0fff0;
+}
+.doctors img {
+  margin-top: -100px
+}
+
+.doctors .card p {
+  font-size: 15px;
+}
+
+.doctors .card span {
+  font-weight: 900;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+  background-image:linear-gradient(to right, rgba(38, 50, 56, 0.9),rgba(38, 50, 56, 0.9)), url("images/testimonial.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  color: #FFF;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.testimonial .single-testimonial {
+  border: 1px solid #21B573;
+  border-radius: 10px;
+  padding: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.testimonial q {
+  font-size: 15px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #21B573;
+  color: #f0fff0;
+  text-transform: uppercase;
+}
+
+.footer p, .footer a {
+  color: #FFF!important;
+  font-weight: 500;
+  font-size: 15px;
+  color: #263238;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  
+}
+
+.footer li {
+  padding: 5px 0;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  
+}
+
+.footer .fa {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #FFF;
+  padding: 10px;
+  color: #21B573;
+  background-color: #FFF;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+}
+
+.footer .fa:hover {
+  color: #FFF;
+  background: #21B573;
+}
+
+.footer h6 {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/* DOCTORS PAGE */
+.department {
+  border-left: 5px solid #21B573;
+}
+
+.department span {
+  padding-left: 10px;
+}
+
+/* SERVICES PAGE */
+.service .far, .about .far {
+  color: #21B573;
+}
+
+/* ABOUT PAGE */
+.about {
+  background-color: #f0fff0;
+}
+
+/* CONTACT PAGE */
+.contact {
+  background-color: #f0fff0;
+}
+
+.contact .card {
+  border: none;
+  background-color: #21B573;
+  color: #FFF;
+}
+
+.contact  input, .contact textarea, .contact select{
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+
+@media (max-width: 992px){
+  .hero {
+    margin-top: 50px;
+  }
+  .info .single-info {
+    margin: 10px 0;
+    margin-top: 0;
+  }
+  .service .service-info{
+    padding-bottom: 25px;
+  }
+  .service ul li{
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px){
+  h1 {
+    font-size: 37px;
+  }
+}
+
+@media (max-width: 576px){
+  h1 {
+    font-size: 37px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  h4 {
+    font-style: 28px;
+  }
+  .service ul li{
+    text-align: left;
+  }
+  .doctor-card {
+    padding-top: 50px;
+  }
+  .testimonial .single-testimonial {
+    margin-bottom: 10px;
+  }
+}
